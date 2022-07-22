@@ -1,0 +1,70 @@
+doctype html
+
+
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        block title
+        //- bootstrap -> bootswatch
+        link(href="https://bootswatch.com/5/flatly/bootstrap.min.css", rel="stylesheet")
+
+        <style>
+       #formulario {
+           height:200px 
+           overflow-y: auto;
+       }
+  </style>
+    body
+        header
+            h1 compa&ntilde;ia "Contacto"
+        main.container 
+            section.row
+                block main
+        footer 
+            ul
+            li Email: porrassamuel25@gmail.com
+            li Dirección: Cra 18T #63 F -34 Sur Acacias,
+            li Sanfrancisco, Bogota, Colombia
+            li Teléfono: +57 3222143630
+            li Fecha de nacimiento 04-05-2002
+            li Nacionalidad:Colombiano
+            li Enlace:porrassamuel25@gmail.co
+                
+                <div class="container">
+                     h1 lista de contato 
+
+                     <div class="form-group">
+                     <label>Nombre del interesado </label>
+                     <input type="text" name="txtNombre" id="txtNombre">
+                        placeholder="Captura el nombre del interesado"
+                        class="form-control" required> 
+                     </div>
+
+                     <div class="form-group">
+                     <label>Correo </label>
+                     <input type="text" name="txtCorreo" id="txtCorreo">
+                        placeholder="Captura el correo"
+                        class="form-control" required> 
+                     </div>
+
+                     <div class="form-group">
+                     <button class="btn btn-primary" id="addcontact">Agregar contacto</button>
+                     </div>
+                        <table class ="table table-striped" id = "contact-table" style="width: 100%;">
+
+                     <div class="list-group">
+                               <tr>
+                               <th class="col-xs-2">numero</th>
+                               <th class="col-xs-4">nombre</th>
+                               <th class="col-xs-6">correo</th>
+                               </tr>
+                               </table>
+
+                               <script src="./File.js"></script>
+                               </div>
+
+
+
+                </div>

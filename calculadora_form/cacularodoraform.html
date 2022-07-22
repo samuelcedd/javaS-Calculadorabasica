@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>calculadora form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='calculadoraform.js'></script>
+</head>
+<body>
+    <h1>Operar</h1>
+    <form>
+        <h3>Número 1:<input id="num1" type="number" /></h3>
+        <h3>Número 2:<input id="num2" type="number" /></h3>
+        <p id="resultado" ></p>
+
+        <br /><br />
+        <input type="button" value="SUMAR" onclick="operaciones('sumar'); return false;" /><br />
+        <input type="button" value="RESTAR" onclick="operaciones('restar'); return false;" /><br />
+        <input type="button" value="MULTIPLICAR" onclick="operaciones('multiplicar'); return false;" /><br />
+        <input type="button" value="DIVIDIR" onclick="operaciones('dividir'); return false;" />
+    </form> 
+</body>
+</html>
